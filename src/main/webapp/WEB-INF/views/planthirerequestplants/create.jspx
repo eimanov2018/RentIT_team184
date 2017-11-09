@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create compositePkField="id" id="fc_enterprise_domain_PlantHireRequestPlant" modelAttribute="plantHireRequestPlant" path="/planthirerequestplants" render="${empty dependencies}" z="svHznv2/o+g1+nTG8Q4SgD7FHE0=">
+        <field:input disableFormBinding="true" field="id.plantHireRequest" id="c_enterprise_domain_PlantHireRequestPlant_id_plantHireRequest" required="true" validationMessageCode="field_invalid_integer" z="QsUsFUZTjKczbK2Qs3j7v5vTOCQ="/>
+        <field:input disableFormBinding="true" field="id.plant" id="c_enterprise_domain_PlantHireRequestPlant_id_plant" required="true" validationMessageCode="field_invalid_integer" z="fX7tkSLaW3OmPNN0+Ai9Slycs3U="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_enterprise_domain_PlantHireRequestPlant" render="${not empty dependencies}" z="RUs7hhpj0VCh8nqn2NklADKzKfc="/>
+</div>

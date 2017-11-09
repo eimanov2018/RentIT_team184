@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_enterprise_domain_PlantHireRequest" object="${planthirerequest}" path="/planthirerequests" z="2IlJIWvEusF0s54OONew9NDG1z8=">
+        <field:display field="plant" id="s_enterprise_domain_PlantHireRequest_plant" object="${planthirerequest}" z="vsiOhjvZlvYKhJENTURNC3tpCrU="/>
+        <field:display field="contact" id="s_enterprise_domain_PlantHireRequest_contact" object="${planthirerequest}" z="Ct2hCWuhc5WKmBYPvq6z60pQTa0="/>
+        <field:display field="cost" id="s_enterprise_domain_PlantHireRequest_cost" object="${planthirerequest}" z="HCHcC8SvoTM/xyDPHC+CyRN/3jk="/>
+        <field:display calendar="true" dateTimePattern="${plantHireRequest_endr_date_format}" field="endr" id="s_enterprise_domain_PlantHireRequest_endr" object="${planthirerequest}" z="voegJCM52aCTRvo9rUAB4rJvbO0="/>
+        <field:display calendar="true" dateTimePattern="${plantHireRequest_startr_date_format}" field="startr" id="s_enterprise_domain_PlantHireRequest_startr" object="${planthirerequest}" z="euaZK1rIaRQE/7RMd+pRViztbIk="/>
+    </page:show>
+</div>

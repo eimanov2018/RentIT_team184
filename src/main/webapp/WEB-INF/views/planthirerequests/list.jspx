@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_enterprise_domain_PlantHireRequest" items="${planthirerequests}" z="mwkEIUCjhxT0QKXC0MAg0zBj0IM=">
+        <table:table data="${planthirerequests}" id="l_enterprise_domain_PlantHireRequest" path="/planthirerequests" z="0c3ZQfZ3A+ECVNpFAb3e1/DT4vs=">
+            <table:column id="c_enterprise_domain_PlantHireRequest_plant" property="plant" z="MZSjf4aWXNjrYkfqva/Er524MA0="/>
+            <table:column id="c_enterprise_domain_PlantHireRequest_contact" property="contact" z="wob3mr520r3gRIZnh0l1sYNg0jA="/>
+            <table:column id="c_enterprise_domain_PlantHireRequest_cost" property="cost" z="LJKB55/mVwqR6FjhH+/cV3jZSWs="/>
+            <table:column calendar="true" dateTimePattern="${plantHireRequest_endr_date_format}" id="c_enterprise_domain_PlantHireRequest_endr" property="endr" z="wtK6NrwNNh9TsO66Hv6DulOYvWo="/>
+            <table:column calendar="true" dateTimePattern="${plantHireRequest_startr_date_format}" id="c_enterprise_domain_PlantHireRequest_startr" property="startr" z="9n6xEaLlyTn0WQCXvJQt0Jml4G4="/>
+        </table:table>
+    </page:list>
+</div>
